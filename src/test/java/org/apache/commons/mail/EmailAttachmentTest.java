@@ -66,6 +66,7 @@ public class EmailAttachmentTest extends AbstractEmailTest {
                 "http://localhost/",
                 "http://www.apache.org/",
                 "http://foo.notexisting.org",
+                "http://localhost:8080/"
         };
 
         for (final String urlString : tests) {
